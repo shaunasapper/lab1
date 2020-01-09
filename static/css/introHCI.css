@@ -9,26 +9,42 @@
 	color: #CC00AA;
 }
 
-/* this style exists to make it obvious that you've successfully linked
-   the CSS to the page. feel free to remove it once the link is working. */
-body {
-     border: 1px dotted gray;
-     padding: 20px;
+h1 {
+	font-family: monospace;
+	text-align: center;
+	color: maroon;
 }
 
-.jumbotron {
-	position: relative;
-	background: none;
+h4 {
+	font-family: monospace;
+	text-align: center;
+	color: maroon;
+	font-style: oblique;
 }
 
-.jumbotron:after {
-     content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;
+p {
+	font-family: monospace;
+	text-align: center;
+	font-style: italic;
+}
+
+a {
+	color: maroon;
+	padding: 10px;
+}
+
+.project{
+	background-color: #f3eff5;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.thumbnail{
+	width: 400px;
+	height: 200px;
+	border: 3px solid #434343;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
 }
